@@ -1,0 +1,54 @@
+stud@debian:~$ mkdir q1
+stud@debian:~$ cd q1
+stud@debian:~/q1$ cat>apple
+hi
+stud@debian:~/q1$ cat>bat
+hell
+stud@debian:~/q1$ cat>cat
+heello
+stud@debian:~/q1$ cat>dell
+do
+stud@debian:~/q1$ cat>hell
+fire
+stud@debian:~/q1$ cat>1fill
+1222
+stud@debian:~/q1$ cat>23mca
+dasuui
+stud@debian:~/q1$ cat>5z
+rew76rt6
+stud@debian:~/q1$ cat>cabin123
+hsdgwqed
+stud@debian:~/q1$ cat>dgsd4566
+dgsdgg
+stud@debian:~/q1$ cat>cat567
+dy76ewed6
+stud@debian:~/q1$ cat>sasjjhdjsh
+d6td
+stud@debian:~/q1$ ca>sygyfgyfdsya
+bash: ca: command not found
+stud@debian:~/q1$ cat>sgdhghsa
+fhdfgdff67dtf
+stud@debian:~/q1$ cat>sdshdg
+5ew5e
+
+
+Q1:
+stud@debian:~/q1$ ls -d ???    # -d IS USED TO AVOID ANY DIRECTORIES
+bat  cat
+
+Q2:
+stud@debian:~/q1$ ls -d *[abc]*
+apple  bat  cat
+
+Q3:
+stud@debian:~/q1$ ls -d ca*
+cabin123  cat  cat567
+
+Q4:
+stud@debian:~/q1$ ls -d ca*[0-9][0-9]
+cabin123  cat567
+
+Q5:
+stud@debian:~/q1$ ls -d s*a*
+sasjjhdjsh  sgdhghsa  sygyfgyfdsya
+

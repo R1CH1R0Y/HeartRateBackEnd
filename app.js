@@ -6,11 +6,13 @@ const jwt=require("jsonwebtoken")
 const userModel = require("./models/users")
 const fileModel = require("./models/files")
 
+
 let app=express()
 app.use(express.json())
 app.use(cors())
 
-mongoose.connect("mongodb+srv://Richi2001:R1CH1R0Y@cluster0.ulfkc.mongodb.net/HearRateAppDb?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("")
+
 
 app.post("/Register",async(req,res)=>{
     let input=req.body
